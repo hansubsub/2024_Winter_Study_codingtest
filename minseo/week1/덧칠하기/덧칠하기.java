@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution {//
     public int solution(int n, int m, int[] section) {
         // 페인트칠이 필요한 구역번호와 칠해졌는지 여부를 boolean 사용
        Map<Integer, Boolean> paintWall = new HashMap<>();

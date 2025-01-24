@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution { 
     public int solution(int[] order) {
         Stack<Integer> stack = new Stack<>(); // 보조 컨테이너 벨트
         int result = 0; // 트럭에 실은 상자 개수
